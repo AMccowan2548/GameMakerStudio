@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "sProjectile",
+    "path": "sprites/sProjectile/sProjectile.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemy",
+  "name": "oProjectile",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,4 +1,4 @@
-/// @description Basic Enemy Collision
+/// @description Enemy Patrol Collision
 
 //check to see if there is a collision between oPlayer and the head  or the top of oEnemy
 if (y <= other.y - other.sprite_height*0.9)
