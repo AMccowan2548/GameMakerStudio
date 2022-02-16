@@ -12,7 +12,7 @@ yVector = 0;
 //gravity levels
 grv = 0.4;
 
-jumpforce = -10;
+jumpforce = -15;
 
 //coins and points
 global.coins = 0;
@@ -23,3 +23,14 @@ isInvincible = false;
 
 //health points
 hp = 4;
+
+//level timer
+levelTimer = 60;
+
+//invinsibility timer
+invTimer = 2;
+
+omniDirection = 0;
+Dash = -10;
+Dashing = 10;
+DashTimer = 0.3;
