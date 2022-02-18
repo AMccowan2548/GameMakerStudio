@@ -31,6 +31,5 @@ levelTimer = 60;
 invTimer = 2;
 
 omniDirection = 0;
-Dash = -10;
-Dashing = 10;
+Dashing = false;
 DashTimer = 0.3;
