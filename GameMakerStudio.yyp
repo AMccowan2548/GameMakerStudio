@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"oSpaceship","path":"objects/oSpaceship/oSpaceship.yy",},"order":11,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":5,},
+    {"id":{"name":"sHook","path":"sprites/sHook/sHook.yy",},"order":9,},
     {"id":{"name":"RocketShoes","path":"sprites/RocketShoes/RocketShoes.yy",},"order":7,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
@@ -12,11 +14,13 @@
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":17,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":6,},
+    {"id":{"name":"sSpaceship","path":"sprites/sSpaceship/sSpaceship.yy",},"order":8,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":6,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":16,},
+    {"id":{"name":"oSpaceshipSprite","path":"objects/oSpaceshipSprite/oSpaceshipSprite.yy",},"order":10,},
     {"id":{"name":"oEnemyFollow","path":"objects/oEnemyFollow/oEnemyFollow.yy",},"order":7,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
     {"id":{"name":"oTurret","path":"objects/oTurret/oTurret.yy",},"order":5,},

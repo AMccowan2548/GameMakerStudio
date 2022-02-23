@@ -17,7 +17,6 @@ jumpforce = -15;
 //coins and points
 global.coins = 0;
 
-
 //Boolean for invincibility
 isInvincible = false;
 
@@ -33,3 +32,10 @@ invTimer = 2;
 omniDirection = 0;
 Dashing = false;
 DashTimer = 0.3;
+
+mouseX = mouse_x;
+mouseY = mouse_y;
+hookActive = false;
+
+enterShip = false;
+enteredShip = false;
