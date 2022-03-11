@@ -7,14 +7,10 @@ left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
-if up
-{
-	yVector = up -4;
-}
 
-yVector = yVector + grv;
-yVector = 4 * yDirection
-yDirection = up - down;
+yDirection = down - up;
+yVector = 4* yDirection;
+
 xDirection = right - left;
 xVector = xDirection* xSpeed;
 
@@ -30,7 +26,8 @@ if (place_meeting(x +xVector, y, oWall))
 				}
 				xVector = 0;
 	}
-			x = x + xVector;
+
+x = x + xVector;
 			
 				if (place_meeting(x, y + yVector, oWall))
 	{
@@ -44,7 +41,8 @@ if (place_meeting(x +xVector, y, oWall))
 			}
 			yVector = 0;
 	}
-			y = y + yVector
+
+y = y + yVector + grv
 
 if isInvincible
 {

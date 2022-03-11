@@ -3,6 +3,6 @@
 yVector = yVector + grv;
 grv = 0.4;
 xDirection = 0;
+yDirection = 
 xVector = xSpeed * xDirection;
-xSpeed = 0;
-up = keyboard_check(vk_up);
+xSpeed = 4;

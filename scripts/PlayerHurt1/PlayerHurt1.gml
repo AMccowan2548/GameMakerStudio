@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-//trigger temerary invincibility and get damaged
+//trigger temporary invincibility and get damaged
 function PlayerHurt()
 {
 	if(!oPlayer.isInvincible)

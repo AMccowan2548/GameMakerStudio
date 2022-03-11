@@ -1,5 +1,6 @@
 ///@description Creating Variables
 //code that runs when player is created
+canJump = true;
 //How many pixels per frame we want the player to move
 xSpeed =4;
 
@@ -13,9 +14,6 @@ yVector = 0;
 grv = 0.4;
 
 jumpforce = -15;
-
-//coins and points
-global.coins = 0;
 
 //Boolean for invincibility
 isInvincible = false;
@@ -39,3 +37,25 @@ hookActive = false;
 
 enterShip = false;
 enteredShip = false;
+
+
+haveHook = false;
+
+enum states 
+{
+	walking,
+	jumping,
+	idle 
+}
+
+state = states.idle;
+
+state_array[states.walking] = StatePlayerWalking;
+state_array[states.jumping] = StatePlayerJumping;
+state_array[states.idle] = StatePlayerIdle;
+
+sprite_array[states.walking] = sPlayerWalking;
+sprite_array[states.jumping] = sPlayerJumping;
+sprite_array[states.idle] = sPlayerIdle;
+
+
