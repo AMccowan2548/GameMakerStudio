@@ -9,8 +9,6 @@ function CheckImputs()
 	Dash = keyboard_check_pressed(vk_control);
 	xDirection = right - left;
 
-	invTimer = 2;
-
 	if left
 	{
 		omniDirection = -1;

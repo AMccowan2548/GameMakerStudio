@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerHurt1",
+  "name": "scr_collision",
   "tags": [],
   "resourceType": "GMScript",
 }

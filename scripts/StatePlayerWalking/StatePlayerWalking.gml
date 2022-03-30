@@ -13,6 +13,11 @@ function StatePlayerWalking()
 	{
 		state = states.jumping
 	}
+	
+	if (place_meeting(x, y + 1, oSpikes) and (jump))
+	{
+		state = states.jumping
+	}
 {
 	//sprite_index = RocketShoes;
 	//image_speed = 1;
