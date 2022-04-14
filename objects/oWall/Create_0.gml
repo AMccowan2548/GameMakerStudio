@@ -12,3 +12,6 @@ yVector = 0;
 
 //gravity levels
 grv = .1;
+
+//Opacity
+///image_alpha = 0.5;

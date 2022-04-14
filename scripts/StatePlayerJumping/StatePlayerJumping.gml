@@ -11,7 +11,7 @@ function StatePlayerJumping()
 		canJump = false;
 	}
 
-	//if we are touching touching oWall and we press jump key
+	//if we are touching oWall and we press jump key
 if (place_meeting(x, y + 1, oWall) and (jump))
 {
 	sprite_index = RocketShoes;
@@ -19,6 +19,13 @@ if (place_meeting(x, y + 1, oWall) and (jump))
 	yVector	= jumpforce;
 }
 	
+	if (place_meeting(x, y + 1, oBox) and (jump))
+{
+	//sprite_index = RocketShoes;
+	image_speed = 1;
+	yVector	= jumpforce;
+}
+
 	CheckCollisionsY();
 	
 	//condition for leaving the state

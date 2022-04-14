@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 14,
-  "bbox_right": 52,
-  "bbox_top": 11,
-  "bbox_bottom": 47,
+  "bbox_left": 10,
+  "bbox_right": 54,
+  "bbox_top": 4,
+  "bbox_bottom": 61,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ee36c48c-5f54-417f-beb5-b3218aaea89e","path":"sprites/sBox/sBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ee36c48c-5f54-417f-beb5-b3218aaea89e","path":"sprites/sBox/sBox.yy",},"LayerId":{"name":"bd5bacc0-84b0-43bb-9518-c3b1ace5e675","path":"sprites/sBox/sBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBox","path":"sprites/sBox/sBox.yy",},"resourceVersion":"1.0","name":"ee36c48c-5f54-417f-beb5-b3218aaea89e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5ad92333-aeb7-49d5-a667-dd1a9a4c148c","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5ad92333-aeb7-49d5-a667-dd1a9a4c148c","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},"LayerId":{"name":"a805c346-a6aa-4b3d-9c5f-e09d9c22ee53","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sFullKeyCard","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},"resourceVersion":"1.0","name":"5ad92333-aeb7-49d5-a667-dd1a9a4c148c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBox","path":"sprites/sBox/sBox.yy",},
+    "spriteId": {"name":"sFullKeyCard","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8b9eace0-7751-42b5-9e0d-3c3aec966ba4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee36c48c-5f54-417f-beb5-b3218aaea89e","path":"sprites/sBox/sBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"54f6f994-e0b6-41d1-bcd9-013a8b63b631","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5ad92333-aeb7-49d5-a667-dd1a9a4c148c","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBox","path":"sprites/sBox/sBox.yy",},
+    "parent": {"name":"sFullKeyCard","path":"sprites/sFullKeyCard/sFullKeyCard.yy",},
     "resourceVersion": "1.3",
-    "name": "sBox",
+    "name": "sFullKeyCard",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bd5bacc0-84b0-43bb-9518-c3b1ace5e675","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a805c346-a6aa-4b3d-9c5f-e09d9c22ee53","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sBox",
+  "name": "sFullKeyCard",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -65,6 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"displayName":"Layer Group 1","layers":[],"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"resourceVersion":"1.0","name":"775b5743-78a4-4124-b015-8937d3a95b66","tags":[],"resourceType":"GMImageFolderLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"df8974a5-d587-4392-b29c-d4799998d466","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
