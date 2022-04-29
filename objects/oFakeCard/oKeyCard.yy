@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sWall21",
-    "path": "sprites/sWall21/sWall21.yy",
+    "name": "sTopKeyCard",
+    "path": "sprites/sTopKeyCard/sTopKeyCard.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBegoneWall",
+  "name": "oKeyCard",
   "tags": [],
   "resourceType": "GMObject",
 }

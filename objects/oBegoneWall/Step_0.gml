@@ -6,6 +6,11 @@ if (x <= other.x - other.sprite_width*0.3)
 	//instance_destroy(other)
 }
 
+if (x <= other.x - other.sprite_height*0.6)
+{
+	//instance_destroy(other)
+}
+
 else 
 {
 	image_alpha = 1;

@@ -1,8 +1,6 @@
 /// @description Insert description here
 
-horizontal_movement = false;
-
-//interaction_radius = (sprite_width / 2);
+//horizontal_movement = true;
 
 xDirection = 0;
 yVector = 0;

@@ -3,7 +3,7 @@
     "name": "sBox",
     "path": "sprites/sBox/sBox.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

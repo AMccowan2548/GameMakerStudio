@@ -55,6 +55,17 @@ else
 				}
 				xVector = 0;
 	}
+	if(place_meeting(x +xVector, y,oBox))
+	{
+			//check one pixel to the left or right of us until we collide with the oWall
+			// ! means "not"
+			while(!place_meeting(x +xVector, y, oBox))
+				{
+				//only move one pixel at a time until you hit a wall
+				x = x + xDirection;
+				}
+				xVector = 0;
+	}
 		//otherwise move normal
 	x = x + xVector;
 }
@@ -101,6 +112,18 @@ else
 			//"sign" is going to return the positive or negative fo a value (-1, +1)
 			//sigh(yvector) if yVector is positive it will return a positive 1, if yVector is negative, it will return a -1
 			while(!place_meeting(x, y + sign(yVector), oWall))
+			{
+				//only move one pixel at a time until you hit a wall
+				y = y + sign(yVector);
+			}
+			yVector = 0;
+	}
+	if (place_meeting(x, y + yVector, oBox))
+	{
+			//check one pixel to the up or own of us until we collide with the oWall
+			//"sign" is going to return the positive or negative fo a value (-1, +1)
+			//sigh(yvector) if yVector is positive it will return a positive 1, if yVector is negative, it will return a -1
+			while(!place_meeting(x, y + sign(yVector), oBox))
 			{
 				//only move one pixel at a time until you hit a wall
 				y = y + sign(yVector);

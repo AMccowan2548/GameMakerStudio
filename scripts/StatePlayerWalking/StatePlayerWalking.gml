@@ -13,6 +13,10 @@ function StatePlayerWalking()
 	{
 		state = states.jumping
 	}
+	if (place_meeting(x, y + 1, oBox) and (jump))
+	{
+		state = states.jumping
+	}
 	
 	if (place_meeting(x, y + 1, oSpikes) and (jump))
 	{

@@ -10,3 +10,5 @@ draw_text(32,128, "Level Time Remaining: " + string(floor(levelTimer)));
 draw_text(32,160, "isInvincible: " + string(oPlayer.isInvincible));
 
 draw_text(32,192, "invTimer: " + string(oPlayer.invTimer));
+
+draw_text(32,224, "Key: " + string(global.keys));

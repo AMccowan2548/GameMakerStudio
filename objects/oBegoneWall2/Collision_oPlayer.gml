@@ -13,3 +13,13 @@ else
 	{
 		image_alpha = distance_to_object(oPlayer) / transparency_variable;
 	}
+	
+	/*Horizontal collision to avoid getting stuck in wall (oBox)
+if (place_meeting(x + global.playerspeed, y, obj_player_parent))
+{
+while (!place_meeting(x+sign(global.playerspeed),y,obj_player_parent))
+{
+x += sign (global.playerspeed) ;
+}
+global.playerspeed = 0;
+}

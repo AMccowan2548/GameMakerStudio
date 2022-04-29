@@ -1,13 +1,14 @@
 ///@description Creating Variables
 //code that runs when player is created
 canJump = true;
+
 //How many pixels per frame we want the player to move
 xSpeed =4;
 
 //what direction player is facing (where 1 = right, left = 0, -1 = left, 0 = front/not moving)
 xDirection = 0;
 
-//how fast and that directionthe player is moving
+//how fast in that direction the player is moving
 yVector = 0;
 
 //gravity levels
@@ -58,4 +59,5 @@ sprite_array[states.walking] = sPlayerWalking;
 sprite_array[states.jumping] = sPlayerJumping;
 sprite_array[states.idle] = sPlayerIdle;
 
+RocketShoes = true;
 

@@ -12,26 +12,54 @@ function StatePlayerJumping()
 	}
 
 	//if we are touching oWall and we press jump key
-if (place_meeting(x, y + 1, oWall) and (jump))
-{
-	sprite_index = RocketShoes;
-	image_speed = 1;
-	yVector	= jumpforce;
-}
+	if (place_meeting(x, y + 1, oWall) and (jump))
+	{
+		sprite_index = RocketShoes;
+		image_speed = 1;
+		yVector	= jumpforce;
+	}
 	
 	if (place_meeting(x, y + 1, oBox) and (jump))
-{
-	//sprite_index = RocketShoes;
-	image_speed = 1;
-	yVector	= jumpforce;
-}
+	{
+		//sprite_index = RocketShoes;
+		image_speed = 1;
+		yVector	= jumpforce;
+	}
 
 	CheckCollisionsY();
 	
 	//condition for leaving the state
-	if (place_meeting(x, y+ 1, oWall))
+	if (place_meeting(x, y+ 1, oWall) and xDirection = 0)
 	{
-			state = states.walking
+			state = states.idle;
+			canJump = true;
+	}
+	if (place_meeting(x, y+ 1, oWall) and !xDirection = 0)
+	{
+			state = states.walking;
+			canJump = true;
+	}
+	
+	if (place_meeting(x, y+ 1, oBox) and xDirection = 0)
+	{
+			state = states.idle;
+			canJump = true;
+	}
+	if (place_meeting(x, y+ 1, oBox) and !xDirection = 0)
+	{
+			state = states.walking;
+			canJump = true;
+	}
+
+	
+		if (place_meeting(x, y+ 1, oSpikes) and xDirection = 0)
+	{
+			state = states.idle;
+			canJump = true;
+	}
+	if (place_meeting(x, y+ 1, oSpikes) and !xDirection = 0)
+	{
+			state = states.walking;
 			canJump = true;
 	}
 	

@@ -61,6 +61,8 @@ if (y >= room_height)
 {
 			PlayerDeath();
 }
+
+
 /*
 if (place_meeting(x, y + 1, oWall))
 {
@@ -74,4 +76,4 @@ if (place_meeting(x, y + 1, oWall) and (jump))
 	image_speed = 1;
 	yVector	= jumpforce;
 }
-*/
+

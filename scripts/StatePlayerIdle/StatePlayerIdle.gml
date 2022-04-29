@@ -12,7 +12,11 @@ function StatePlayerIdle()
 	}
 	if (place_meeting(x, y + 1, oWall) and (jump))
 	{
-		state = states.jumping
+		state = states.jumping;
+	}
+	if (place_meeting(x, y + 1, oBox) and (jump))
+	{
+		state = states.jumping;
 	}
 
 	
